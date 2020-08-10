@@ -1,6 +1,6 @@
 # v2ray
 
-章鱼哥破解的docker后端，自己改了一下，章鱼哥的tg群https://t.me/woaizyg
+章鱼哥破解的docker后端，章鱼哥的tg群https://t.me/woaizyg
 后端是rico的，破解仅用于交流
 
 前端食用复读机
