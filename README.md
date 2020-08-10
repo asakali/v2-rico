@@ -1,13 +1,10 @@
 # v2ray
 
 章鱼哥破解的docker后端，自己改了一下，章鱼哥的tg群https://t.me/woaizyg
-
-脚本是hulisang大佬的，啥时候研究改改
-
 后端是rico的，破解仅用于交流
 
 前端食用复读机
-
+```bash
 没有CDN的域名或者ip;端口（外部链接的);AlterId;协议层;;额外参数(path=/v2ray|host=xxxx.win|inside_port=10550这个端口内部监听))
 
 // ws 示例
@@ -33,6 +30,7 @@ xxxxx.com;0;16;tls;ws;path=/v2ray|host=oxxxx.com|inside_port=10550|outside_port=
 
 xxxxx.com;;16;tls;ws;path=/v2ray|host=oxxxx.com|inside_port=10550|outside_port=11120
 
+```
 目前的逻辑是
 
 
@@ -45,7 +43,7 @@ xxxxx.com;;16;tls;ws;path=/v2ray|host=oxxxx.com|inside_port=10550|outside_port=1
 Nat🐔，如果要用ws+tls，则需要使用outside_port=xxx，php后端会生成订阅时候，使用outside_port覆盖port部分。 outside_port是内部映射端口， 建议内网和外网的两个端口数值一致。
 
 tcp 配置：
-
+```bash
 xxxxx.com;非0;16;tcp;;
 
 kcp 支持所有 v2ray 的 type：
@@ -73,3 +71,4 @@ xxxxx.com;非0;16;kcp;dtls;
 wireguard: 伪装成 WireGuard 数据包(并不是真正的 WireGuard 协议) 。
 
 xxxxx.com;非0;16;kcp;wireguard;
+```
