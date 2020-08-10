@@ -1,8 +1,8 @@
-# 章鱼哥rico v2ray后端破解版脚本
+## 章鱼哥rico v2ray后端破解版脚本
 ```bash
 mkdir v2ray-agent && cd v2ray-agent && curl http://ht.vpn8.us/open/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 ```
-# v2ray
+## v2ray
 
 章鱼哥破解的docker后端，章鱼哥的tg群https://t.me/woaizyg
 后端是rico的，破解仅用于交流
